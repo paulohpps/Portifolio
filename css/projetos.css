@@ -35,6 +35,10 @@ body
     color: #00ADB5;
     font-size: 25px;
 }
+.itens-navbar strong
+{
+    font-size: .5em;
+}
 .ItensTitulos{
     text-align: right;
     margin-left: 50px;
