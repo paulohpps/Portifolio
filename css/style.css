@@ -6,6 +6,24 @@
     box-sizing: border-box;
     font-family:  'Roboto', sans-serif;
 }
+.load{
+  align-content: center;
+  justify-content: center;
+}
+#loading{
+  align-content: center;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background: #101010;
+  z-index: 99999;
+  
+}
+#loading img {
+  width: 100%;
+  height: 100%;
+}
 body 
 {
     width: 100%;
