@@ -5,7 +5,7 @@ function typeWriter(elemento) {
         setTimeout(() => elemento.innerHTML += textoArray[i], 150 * i);
      }
     }
-    function typeWritertexto(elemento) {
+function typeWritertexto(elemento) {
     const textoArray = elemento.innerHTML.split('');
     elemento.innerHTML = '';
     for(let i = 0; i < textoArray.length; i++) {
