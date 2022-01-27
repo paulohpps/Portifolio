@@ -15,7 +15,10 @@ body
 }
 /*Barra de Titulo*/  
 
-
+h2{
+    padding-top:  20px;
+    margin-bottom: -10px;
+}
 .logotipo img
 {
     position: absolute;
@@ -39,7 +42,7 @@ body
 }
 .itens-navbar
 {
-    
+    margin-right: 10px;
     padding: 10px;
     text-decoration: none;
     color: white;
@@ -70,7 +73,33 @@ body
     font-size: 50px;
     padding-top: 30px;
     margin-bottom: 20px;
+    animation: fadeIn ease 10s;
+ 
 }
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
 section
 {    
     display: flex;
@@ -83,6 +112,7 @@ section
     border-top: rgba(0, 0, 0,0.25) 2px solid;
     padding-top: 10px;
     padding-bottom: 10px;
+    text-align: center;
     border-bottom: rgba(0, 0, 0,0.25) 2px solid;
     margin: 25px;
     padding-left: 10px;
@@ -96,12 +126,31 @@ section
     margin-top: 20px;
     margin-bottom: 10px;
 }
+@keyframes blink {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+.titulo::after {
+    content: '|';
+    opacity: 1;
+    margin-left: 5px;
+    display: inline-block;
+    animation: blink .7s infinite;
+  }
 .imagemFoto
 {
+    -webkit-animation: fadeIn ease 5s;
+    -moz-animation: fadeIn ease 5s;
+    -o-animation: fadeIn ease 5s;
+    -ms-animation: fadeIn ease 15s;
     position: relative ;
     justify-content: center;
     margin-left: 75px;
-    border-radius: 25%;
+    border-radius: 50%;
     width: 300px;
     height: 300px;
     box-shadow: 4px 4px rgb(0, 0, 0, 0.25);
@@ -116,6 +165,13 @@ section
     height: 300px;
     box-shadow: 4px 4px rgb(0, 0, 0, 0.25);
 }
+.texto::after {
+    content: '|';
+    opacity: 1;
+    margin-left: 5px;
+    display: inline-block;
+    animation: blink .7s infinite;
+  }
 .main-conteudo div
 {
     display: flex;
@@ -305,6 +361,10 @@ footer
     width: 100%;
     background-color: #222831;
     box-shadow: 0px -5px rgba(0, 0, 0,0.15   );
+}
+.redes img{
+    
+    border-radius: 8px;
 }
 footer div
 {
