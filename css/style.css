@@ -34,7 +34,8 @@ body
 /*Barra de Titulo*/  
 
 h2{
-    padding-top:  20px;
+    font-size: 25pt;
+    padding-top:  40px;
     margin-bottom: -10px;
 }
 .logotipo img
@@ -69,12 +70,6 @@ h2{
     font-size: 1.5em;
 }
 
-.Nome
-{
-    font-size: 30px;
-    color: #00ADB5;
-    display: inline;
-}
 /*Conteudo Pricipal*/    
 .main-conteudo
 {
@@ -125,7 +120,7 @@ section
     align-items: center;
     text-align: center;
     font-size: 50px;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-bottom: 10px;
 }
 @keyframes blink {
@@ -151,12 +146,11 @@ section
     -ms-animation: fadeIn ease 15s;
     position: relative ;
     justify-content: center;
-    margin-left: 75px;
     border-radius: 50%;
     width: 300px;
     height: 300px;
-    box-shadow: 4px 4px rgb(0, 0, 0, 0.25);
-}@keyframes fadeIn {
+}
+@keyframes fadeIn {
     0% {opacity:0;}
     100% {opacity:1;}
   }
@@ -215,10 +209,6 @@ section
     margin-top: 10px;
     box-shadow: 4px 4px rgb(0, 0, 0, 0.25);
 }
-
-
-
-
 
 /*Projetos*/
 
@@ -347,9 +337,12 @@ border-radius: 50%;
 
 
 
+/*Tecnologias Dominadas*/  
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;} 
+} 
 
-
-/*Tecnologias Dominadas*/    
 .logos
 {   
     margin: 10px;
@@ -359,16 +352,14 @@ border-radius: 50%;
     text-align: center;
     color: white;
     margin: 0px auto;
-    -webkit-animation: fadeIn ease 5s;
-    -moz-animation: fadeIn ease 5s;
-    -o-animation: fadeIn ease 5s;
-    -ms-animation: fadeIn ease 5s;
+ 
 }
 .logos img
 {   
     border-radius: 10%;
     width: 80px;
     height: 80px;
+    box-shadow: 4px 4px rgb(0, 0, 0, 0.10);
 }
 .Tec
 {
@@ -376,7 +367,9 @@ border-radius: 50%;
     font-size: 30px;
     align-self: center;
     text-align: center;
-    margin-bottom: 10px;
+    padding-top: 20px;
+
+    margin-bottom: 20px;
 }
 
 /*Footer*/    
