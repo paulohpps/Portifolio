@@ -17,3 +17,4 @@ function typeWritertexto(elemento) {
     const texto = document.querySelector('.texto')
     typeWriter(titulo);
     typeWritertexto(texto);
+    
