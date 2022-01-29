@@ -1,0 +1,88 @@
+@keyframes loading90 {
+    from { width: 0; }
+    to { width: 90%; }
+  }
+@keyframes loading80 {
+    from { width: 0; }
+    to { width: 80%; }
+  }
+@keyframes loading70 {
+    from { width: 0;}
+    to { width: 70%; }
+  }
+  @keyframes loading60 {
+    from { width: 0; }
+    to { width: 60%; }
+  }
+  @keyframes loading50 {
+    from { width: 0; }
+    to { width: 50%; }
+  }
+
+  
+ 
+  [data-por]
+  {
+    background: #E7E7E7;
+    margin-top: 50px;
+    position: relative;
+    height: 8px;
+    width: 30%
+  }
+
+    [data-por= "40"].animates::after{
+        background: #776bb4;
+        animation: loading40 4s forwards ease-in-out;        
+        content: '';
+        position: absolute;
+        left: 0; top: 0; bottom: 0
+    }
+    [data-por = "50"].animates::after{
+        background: #776bb4;
+        animation: loading50 4s forwards ease-in-out;
+            
+        content: '';
+        position: absolute;
+        left: 0; top: 0; bottom: 0
+    }
+    [data-por = "60"].animates::after{
+        background: #776bb4;
+        animation: loading60 4s forwards ease-in-out;
+            
+        content: '';
+        position: absolute;
+        left: 0; top: 0; bottom: 0
+    }
+    [data-por = "70"].animates::after{
+        background: #776bb4;
+        animation: loading70 4s forwards ease-in-out;
+            
+        content: '';
+        position: absolute;
+        left: 0; top: 0; bottom: 0
+    }
+    [data-por = "80"].animates::after{
+        background: #776bb4;
+        animation: loading80 4s forwards ease-in-out;
+            
+        content: '';
+        position: absolute;
+        left: 0; top: 0; bottom: 0
+    }
+    [data-por = "90"].animates::after{
+        background: #776bb4;
+        animation: loading90 4s forwards ease-in-out;
+            
+        content: '';
+        position: absolute;
+        left: 0; top: 0; bottom: 0
+    }
+
+
+  .textpor{
+    margin-top: 35px;
+    margin-right: 0px;
+    font-size: 25pt;
+  }
+
+  

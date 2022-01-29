@@ -343,6 +343,7 @@ border-radius: 50%;
 
 .logos
 {   
+    margin-right: px;
     margin: 10px;
     display: flex;
     flex-direction: row;
@@ -354,6 +355,7 @@ border-radius: 50%;
 }
 .logos img
 {   
+  
     border-radius: 10%;
     width: 80px;
     height: 80px;
