@@ -83,7 +83,11 @@
   .textpor{
     margin-top: 35px;
     margin-right: 0px;
-    font-size: 25pt;
+    font-size: 20pt;
+  }
+  .progress-bar
+  {
+    width: 160px;
   }
 
   
