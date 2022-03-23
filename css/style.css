@@ -80,6 +80,7 @@ h2{
   background-blend-mode: overlay;
   border-bottom: 10px solid rgba(0, 0, 0,0.40);
     margin-top: 20px;
+    margin-bottom: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;    
@@ -203,135 +204,11 @@ section
 .main-conteudo div img
 {    
     margin: 20px;
-    
     margin-top: 10px;
     box-shadow: 4px 4px rgb(0, 0, 0, 0.25);
 }
 
-/*Projetos*/
-
-
-
-  /*Projeto1*/
-
-  .img__description 
-{
-    text-align: center;
-    position: absolute;
-    top: 1;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    color: #fff;
-    visibility: hidden;
-    opacity: 0;
-  
-    transition: opacity .2s, visibility .2s;
-  }
-.projetos img
-{
-width: 300px;
-height: 300px;
-border-radius: 50%;
-}
-  .Projeto
-    {    
-        position: relative;
-        height: 175px;
-        width: 350px; 
-        margin-bottom: 100px;
-    }
-
-  .Projeto:hover img
-  {
-        filter: brightness(0.3);
-  }
-
-  .Projeto:hover .img__description {
-        visibility: visible;
-        opacity: 1;
-  }
-  .Projeto a
-  {
-        font-family:  'Roboto', sans-serif;
-        font-size: 20px;
-  }
-  
-/*Projeto2*/
-.img__description2 
-{
-    text-align: center;
-    position: absolute;
-    top: 1;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    color: #fff;
-    visibility: hidden;
-    opacity: 0;
-  
-    transition: opacity .2s, visibility .2s;
-  }
-
-  .Projeto2
-    {    
-        position: relative;
-        height: 175px;
-        width: 350px;    
-    }
-
-  .Projeto2:hover img
-  {
-        filter: brightness(0.3);
-  }
-
-  .Projeto2:hover .img__description2 {
-        visibility: visible;
-        opacity: 1;
-  }
-  .Projeto2 a
-  {
-        font-family:  'Roboto', sans-serif;
-        font-size: 20px;
-  }
-  /*Projeto3*/
-
-.img__description3 
-{
-    text-align: center;
-    position: absolute;
-    top: 1;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    color: #fff;
-    visibility: hidden;
-    opacity: 0;
-  
-    transition: opacity .2s, visibility .2s;
-  }
-
-  .Projeto3
-    {    
-        position: relative;
-        height: 175px;
-        width: 350px;    
-    }
-
-  .Projeto3:hover img
-  {
-        filter: brightness(0.3);
-  }
-
-  .Projeto3:hover .img__description3 {
-        visibility: visible;
-        opacity: 1;
-  }
-  .Projeto3 a
-  {
-        font-family:  'Roboto', sans-serif;
-        font-size: 20px;
-  }
+/* Projetos */
 
 
 
@@ -370,6 +247,10 @@ border-radius: 50%;
     padding-top: 20px;
 
     margin-bottom: 20px;
+}
+.link-projetos{
+  color: black;
+  text-decoration: none;
 }
 
 /*Footer*/    
